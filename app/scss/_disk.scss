@@ -1,0 +1,41 @@
+.disk {
+  height: 20px;
+  display: block;
+  border-radius: 10px;
+  z-index: 20;
+}
+
+.disk-1 {
+  width: 50px;
+  background-image: linear-gradient(to top, #6400ff, #6e00e5, #7200cd, #7200b5, #6f009f);
+}
+
+.disk-2 {
+  width: 70px;
+  background-image: linear-gradient(to top, #00c8ff, #00b0f3, #0097e6, #007ed5, #0065c2);
+}
+
+.disk-3 {
+  width: 90px;
+  background-image: linear-gradient(to top, #00ff85, #00fdb4, #00f8d9, #00f1f2, #00e9ff);
+}
+
+.disk-4 {
+  width: 110px;
+  background-image: linear-gradient(to top, #e9ff00, #c9f500, #a8eb00, #86e000, #60d506);
+}
+
+.disk-5 {
+  width: 130px;
+  background-image: linear-gradient(to top, #ffb100, #ffbf00, #ffcd00, #ffdb00, #ffe900);
+}
+
+.disk-6 {
+  width: 150px;
+  background-image: linear-gradient(to top, #ff4e00, #ff6500, #ff7800, #ff8a00, #ff9b00);
+}
+
+.disk-7 {
+  width: 170px;
+  background-image: linear-gradient(to bottom, #ff2100, #e41801, #c90f02, #af0602, #960000);
+}

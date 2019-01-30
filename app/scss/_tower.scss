@@ -1,0 +1,27 @@
+.tower {
+  position: relative;
+  width: 155px;
+  height: 145px;
+  padding: 0;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  border-bottom: 5px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+
+  &:before {
+    position: absolute;
+    width: 4px;
+    height: 145px;
+    bottom: -2px;
+    left: calc(50% - 2px);
+    display: block;
+    background: #000;
+    border-radius: 30px;
+    content: '';
+    z-index: 10;
+  }
+}
